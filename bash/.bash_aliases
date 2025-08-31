@@ -32,7 +32,7 @@ alias ll="ls -l"
 alias la="ls -al"
 
 # Bash config
-alias sb="source .bashrc"
+alias sb="source ~/.bashrc"
 alias bashrc="nvim ~/.bashrc"
 
 # System aliases
