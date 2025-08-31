@@ -114,4 +114,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
 export PATH=/opt/nvim-linux-x86_64/bin:$PATH
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
