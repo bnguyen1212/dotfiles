@@ -9,7 +9,7 @@ config.font = wezterm.font("JetBrains Mono", { weight = "Medium" })
 config.font_size = 12
 
 -- Color scheme
-config.color_scheme = "Solarized Darcula"
+config.color_scheme = "Sequoia Moonlight"
 
 -- Tab bar
 config.hide_tab_bar_if_only_one_tab = true
