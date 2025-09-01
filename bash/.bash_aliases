@@ -26,6 +26,7 @@ alias ..="cd .."
 alias cd..="cd .."
 alias ...="cd ../../"
 alias ....="cd ../../../"
+alias cd="z"
 
 # ls alias
 alias ll="ls -l"
@@ -38,6 +39,10 @@ alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time
 # Bash config
 alias sb="source ~/.bashrc"
 alias bashrc="nvim ~/.bashrc"
+
+# Tmux config
+alias st="tmux source ~/.tmux.conf"
+alias tc="nvim ~/.tmux.conf"
 
 # System aliases
 alias updateu="sudo apt update && sudo apt upgrade -y"

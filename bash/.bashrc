@@ -152,4 +152,4 @@ eval $(thefuck --alias fk)
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init bash)"
 
-alias cd="z"
+neofetch
