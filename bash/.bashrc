@@ -121,3 +121,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Set up fzf key bindings and fuzzy completion
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# ----- Bat (better cat) -----
+
+export BAT_THEME=tokyonight_night
