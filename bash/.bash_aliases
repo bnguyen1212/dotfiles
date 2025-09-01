@@ -31,6 +31,10 @@ alias ....="cd ../../../"
 alias ll="ls -l"
 alias la="ls -al"
 
+# ---- Eza (better ls) -----
+
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
 # Bash config
 alias sb="source ~/.bashrc"
 alias bashrc="nvim ~/.bashrc"
