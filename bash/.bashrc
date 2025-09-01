@@ -148,3 +148,8 @@ export BAT_THEME=tokyonight_night
 
 # thefuck alias
 eval $(thefuck --alias fk)
+
+# ---- Zoxide (better cd) ----
+eval "$(zoxide init bash)"
+
+alias cd="z"
